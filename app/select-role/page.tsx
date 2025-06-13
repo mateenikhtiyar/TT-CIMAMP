@@ -108,21 +108,21 @@ export default function SelectRolePage() {
               onClick={handleSellerClick}
               className="bg-[#3aafa9] hover:bg-white text-white hover:text-[#2a9d8f] hover:border-[#2a9d8f] border font-medium py-4 px-6 rounded-full text-center transition-colors"
             >
-              Add a new deal and earn rewards
+              Fill out a Seller profile
             </a>
             <a
               href="/buyer/register"
               onClick={handleBuyerProfileClick}
               className="border border-[#3aafa9] text-[#3aafa9] hover:text-white hover:bg-[#3aafa9] font-medium py-4 px-6 rounded-full text-center transition-colors"
             >
-              Fill out a buyer profile
+              Fill out a Buyer profile
             </a>
-            <Link
+            {/* <Link
               href="/admin/login"
               className="text-[#667085] hover:text-[#3aafa9] font-medium py-2 text-center transition-colors text-sm"
             >
               Admin Login
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
